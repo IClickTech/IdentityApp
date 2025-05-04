@@ -88,7 +88,7 @@ namespace API.Controllers
             }
 
             //return Ok("Your Account has been Created, You Can Login");
-            return Ok(new JsonResult(new { title = "Account Created", message = "Your Account has been Created, You Can Login" }));
+            return Ok(new JsonResult(new { title = "Account Created", message = "Your Account has been created, You can login" }));
         }
 
 
